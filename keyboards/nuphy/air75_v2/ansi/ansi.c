@@ -116,6 +116,22 @@ bool process_record_kb(uint16_t keycode, keyrecord_t *record) {
             }
             return false;
 
+        case MAC_MCTL:
+            if (record->event.pressed) {
+                host_consumer_send(0x29F);
+            } else {
+                host_consumer_send(0);
+            }
+            return false;
+
+        case MAC_SEARCH:
+            if (record->event.pressed) {
+                host_consumer_send(0x221);
+            } else {
+                host_consumer_send(0);
+            }
+            return false;
+
         case MAC_VOICE:
             if (record->event.pressed) {
                 host_consumer_send(0xcf);

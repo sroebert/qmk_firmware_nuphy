@@ -105,6 +105,8 @@
     { "name": "Link BT1", "title": "Link Mode BT1", "shortName": "Lnk BT1" },
     { "name": "Link BT2", "title": "Link Mode BT2", "shortName": "Lnk BT2" },
     { "name": "Link BT3", "title": "Link Mode BT3", "shortName": "Lnk BT3" },
+    { "name": "Mac MC", "title": "Mac Mission Control", "shortName": "Mac MC" },
+    { "name": "Mac Search", "title": "Mac Search", "shortName": "Mac Srch" },
     { "name": "Mac Voice", "title": "Mac Siri Voice", "shortName": "Mac Voice" },
     { "name": "Mac DND", "title": "Mac Do Not Disturb", "shortName": "Mac DND" },
     { "name": "Side Bri +", "title": "Side Brightness +", "shortName": "Side Bri+" },

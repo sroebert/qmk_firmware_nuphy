@@ -27,6 +27,8 @@ enum custom_keycodes {
     LNK_BLE2,
     LNK_BLE3,
 
+    MAC_MCTL,
+    MAC_SEARCH,
     MAC_VOICE,
     MAC_DND,
 
@@ -49,4 +51,3 @@ enum custom_keycodes {
 #define SYS_PRT                 G(S(KC_3))
 #define MAC_PRTA                G(S(KC_4))
 #define WIN_PRTA                G(S(KC_S))
-#define MAC_SEARCH              G(KC_SPC)
